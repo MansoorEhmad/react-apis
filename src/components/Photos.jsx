@@ -28,7 +28,7 @@ function Photos() {
         <>
         <Header/>
         <div className="container mt-4 text-center">
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row">
                 <h1 className="text-white">Photos</h1>
                 {
                     photos.map(photo => (

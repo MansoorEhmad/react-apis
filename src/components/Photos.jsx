@@ -32,8 +32,8 @@ function Photos() {
                 <h1 className="text-white">Photos</h1>
                 {
                     photos.map(photo => (
-                        <div className="col mb-4" key={photo.id}>
-                            <div className="card text-white" style={{ width: "18rem",backgroundColor: "rgb(28, 24, 22)"}}>
+                        <div className="col-md-4 mb-4" key={photo.id}>
+                            <div className="card text-white" style={{backgroundColor: "rgb(28, 24, 22)"}}>
                                 <img src={photo.url} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Card title</h5>

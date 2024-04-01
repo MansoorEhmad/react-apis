@@ -28,11 +28,11 @@ function Photos() {
         <>
         <Header/>
         <div className="container mt-4 text-center">
-            <div className="row">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
                 <h1 className="text-white">Photos</h1>
                 {
                     photos.map(photo => (
-                        <div className="col-md-4 mb-4" key={photo.id}>
+                        <div className="col mb-4" key={photo.id}>
                             <div className="card text-white" style={{ width: "18rem",backgroundColor: "rgb(28, 24, 22)"}}>
                                 <img src={photo.url} className="card-img-top" alt="..." />
                                 <div className="card-body">

@@ -13,22 +13,22 @@ function Header() {
                             <Link className="nav-link active" aria-current="page" to={"/"}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/photos">Photos</a>
+                            <Link className="nav-link active" to={"/photos"}>Photos</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/albums">Albums</a>
+                            <Link className="nav-link active" to={"/albums"}>Albums</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/posts">Posts</a>
+                            <Link className="nav-link active"to={"/posts"}>Posts</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/comments">Comments</a>
+                            <Link className="nav-link active" to={"/comments"}>Comments</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/todos">Todos</a>
+                            <Link className="nav-link active" to={"/todos"}>Todos</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/users">Users</a>
+                            <Link className="nav-link active" to={"/users"}>Users</Link>
                         </li>
                         
                     </ul>

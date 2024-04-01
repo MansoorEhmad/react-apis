@@ -35,7 +35,7 @@ function Posts() {
                     {
                         posts.map(post => (
                             <div className="col-12 col-md-4 text-center" key={post.id}>
-                                <div className="card border-white mb-3 text-white" style={{ maxWidth: "18rem", backgroundColor: "rgb(28, 24, 22)"}}>
+                                <div className="card border-white mb-3 text-white" style={{backgroundColor: "rgb(28, 24, 22)"}}>
                                     <div className="card-header bg-transparent border-white">{post.id}.</div>
                                     <div className="card-body text-white">
                                         <h5 className="card-title">{post.title}</h5>

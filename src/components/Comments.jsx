@@ -34,7 +34,7 @@ function Comments() {
                     {
                         comments.map(comment => (
                             <div className="col-md-4" key={comment.id}>
-                                <div className="card border-white mb-3 text-white" style={{ maxWidth: "18rem", backgroundColor: "rgb(28, 24, 22)"}}>
+                                <div className="card border-white mb-3 text-white" style={{backgroundColor: "rgb(28, 24, 22)"}}>
                                     <div className="card-header bg-transparent border-white">{comment.id}.</div>
                                     <div className="card-body text-white">
                                         <h5 className="card-title">{comment.name}</h5>
